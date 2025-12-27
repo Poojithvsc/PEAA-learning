@@ -1,0 +1,59 @@
+Meeting Minutes
+Date: Saturday, December 27, 2025
+Duration: One Week Action Plan
+Subject: Technical Learning Objectives & Development Goals
+
+Meeting Objectives
+Review and establish a comprehensive one-week learning plan covering architecture concepts, Spring Boot framework, Git fundamentals, and infrastructure provisioning.
+
+Discussion Points & Action Items
+1. Architecture & Design Patterns
+
+Objective: Understand the layer approach and other connecting concepts from the reference book
+Action: Review relevant chapters and identify how layered architecture principles apply to real-world applications
+
+2. Java Spring Boot Fundamentals
+
+Objective: Study commonly used Spring Boot concepts and core framework features
+Action: Research and document standard Spring Boot patterns, components, and best practices
+
+3. Spring Boot Annotations & Layer Implementation
+
+Objective: Learn to integrate Spring Boot annotations to implement the layer approach following best practices
+Action: Study annotations like @Controller, @Service, @Repository, @Component and their proper usage within layered architecture
+
+4. Project Analysis & Low-Level Design (LLD)
+
+Objective: Design or understand a project from Git from the layer and annotation perspective; develop ability to create Low-Level Design independently
+Action:
+
+Select and analyze an existing Spring Boot project from GitHub
+Map out the layer structure and annotation usage
+Practice creating LLD documentation for the analyzed project
+
+
+
+5. Spring Boot Advanced Concepts
+
+Objective: Learn @ConfigurationProperties and Spring Boot Actuator functionality
+Action:
+
+Understand how @ConfigurationProperties binds external configuration
+Explore Actuator endpoints for monitoring and management
+
+
+
+6. Infrastructure & Database Provisioning
+
+Objective: Learn to spin up a database using Terraform (and without it)
+Action: Complete relevant Whizlabs tutorials and practice hands-on database provisioning with and without Infrastructure as Code (IaC)
+
+7. Git Version Control Mastery
+
+Objective: Learn main Git concepts to familiarize with vocabulary and functionality
+Action: Study core Git concepts including repositories, commits, branches, merging, push/pull operations, and remote management
+
+
+Timeline
+Deadline: January 3, 2026 (One week from meeting date)
+All action items to be completed within the one-week timeframe.
