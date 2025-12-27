@@ -1,0 +1,55 @@
+**The 20% of Git That Covers 80% of Work**
+
+**1. Mental Model**
+- Three trees: working dir → staging → local repo → remote
+- Commits are snapshots; branches are pointers
+- HEAD = where you are now
+
+**2. Daily Workflow**
+```
+git status              # always know your state
+git add -p              # selective staging
+git commit -m "msg"     # snapshot
+git pull --rebase       # sync cleanly
+git push                # share
+```
+
+**3. Branching**
+```
+git switch -c feature/x    # create branch
+git merge / git rebase     # integrate changes
+git cherry-pick <sha>      # selective commit
+```
+
+**4. Recovery**
+```
+git stash / stash pop      # shelve temporarily
+git reset --soft/hard      # undo commits
+git revert <sha>           # safe undo (shared history)
+git reflog                 # find "lost" work
+```
+
+**5. Investigation**
+```
+git log --oneline --graph  # visualize
+git diff main...feature    # compare branches
+git blame <file>           # line authorship
+```
+
+**6. PR Review**
+
+| Aspect | Essentials |
+|--------|-----------|
+| **Submitting** | Small PRs, clear description (what/why/test), CI green |
+| **Reviewing** | Correctness → Design → Readability → Tests → Security |
+| **Feedback** | Prefix (`nit:`, `blocking:`), explain *why*, offer alternatives |
+| **Local checkout** | `git fetch origin pull/123/head:pr-123` |
+
+**7. Collaboration**
+```
+git fetch                  # download without merge
+git remote -v              # verify remotes
+# Conflicts: edit markers → git add → continue
+```
+
+This set handles daily development, code review, recovery from mistakes, and team collaboration—everything else is situational.
