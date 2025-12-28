@@ -1,0 +1,5 @@
+SubsectionSpring Concepts1.7.1 Core Stereotypes@Controller, @Service, @Repository, @Component, @Entity, @Embeddable1.7.2 Spring Data JPAJpaRepository, @Query, @EntityGraph, @Transactional, Specification, @ManyToOne/@OneToMany1.7.3 Dependency InjectionConstructor injection, @Autowired, @Qualifier, @Primary, @Profile, @Conditional*1.7.4 Spring MVC@GetMapping, @RequestBody, @Valid, @ExceptionHandler, @ControllerAdvice1.7.5 Configurationapplication.yml, @Value, @ConfigurationProperties, profiles1.7.6 SecuritySecurityFilterChain, @PreAuthorize, @Secured, JWT/OAuth21.7.7 Spring Cloud@EnableEurekaClient, @FeignClient, Circuit Breaker, Spring Cloud Gateway, Stream1.7.8 EventsApplicationEvent, @EventListener, @TransactionalEventListener, @Async1.7.9 ActuatorHealth checks, metrics, custom indicators
+
+
+
+these are called annotations and learn how these are used to implement the layers !!
