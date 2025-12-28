@@ -53,3 +53,5 @@ git remote -v              # verify remotes
 ```
 
 This set handles daily development, code review, recovery from mistakes, and team collaboration—everything else is situational.
+
+learn
